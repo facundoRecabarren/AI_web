@@ -1,0 +1,18 @@
+:host {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+.fake-cursor {
+    &.container-full {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        z-index: 10;
+    }
+    .floating-point {
+        width: 15px;
+        height: 15px;
+        background-color: var(--secondary_color);
+    }
+}
